@@ -1,0 +1,387 @@
+@font-face {
+  font-family: "Helvetica Neue LT Pro";
+  src: url("/fonts/HelveticaNeueLTPro-Ex.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  margin: 0;
+  /* background-color: rgb(0, 0, 0); */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  background: url(/img/header-bg.png) no-repeat fixed;
+  /* background-size: cover; */
+  /* width: 1440px; */
+  /* height: 730px; */
+}
+.navbar-logo {
+  margin-top: 1.722vw;
+  margin-left: 9.73vw;
+}
+.header-text {
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 133.1%;
+  /* identical to box height, or 27px */
+
+  color: #ffffff;
+}
+.phone {
+  margin-left: 47px;
+}
+.navbar {
+  /* max-width: 1280px; */
+  /* margin: auto; */
+  display: flex; /* сделали блок гибким */
+  justify-content: space-between; /* расставили элементы по краям */
+  align-items: center;
+}
+.navbar-adress {
+  display: flex;
+  flex-direction: row;
+}
+.navbar-nav {
+  margin-right: 139px;
+}
+.ambassador-img {
+  margin: 243px 139px 335px 141px;
+}
+
+main {
+  /* background: #fff; */
+
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(52, 51, 51, 0.9345939059217437) 38%,
+    rgba(92, 91, 91, 1) 100%
+  );
+}
+
+.main-title {
+  /* display: block; */
+  width: 56vw;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+  font-size: 67px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 86px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  margin-left: 141px;
+  padding-top: 100px;
+}
+.two-rooms {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+}
+.room1 {
+  margin-left: 141px;
+}
+.room1-img {
+  margin-left: -28px;
+  width: 560px;
+  height: 784px;
+  filter: drop-shadow(0px 81px 33px rgba(0, 0, 0, 0.16));
+}
+.room1-subtitle {
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 29px;
+  line-height: 187.19%;
+  /* or 54px */
+  margin-top: -80px;
+  width: 560px;
+  height: 108px;
+  color: rgb(255, 255, 255);
+}
+.catalog-button {
+  display: inline-block;
+  padding: 27px 47px 26px 48px;
+  border: 2px solid #95770e;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #95770e;
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 133.1%;
+  /* or 23px */
+
+  text-transform: uppercase;
+}
+.room2-title {
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 121.19%;
+  /* identical to box height, or 44px */
+  text-transform: uppercase;
+  color: #b98d2c;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.room2-subtitle {
+  display: flex;
+  font-display: row;
+  margin-top: 43px;
+}
+.room2-sbt {
+  margin-top: 0;
+  margin-left: 21px;
+  margin-bottom: 0;
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 128.69%;
+  /* identical to box height, or 31px */
+
+  color: #eaeaea;
+}
+.list {
+  margin-top: 50px;
+}
+.room2-img {
+  margin-left: -28px;
+  margin-top: 53px;
+  width: 561px;
+  height: 704px;
+  filter: drop-shadow(0px 81px 33px rgba(0, 0, 0, 0.16));
+}
+.big-room {
+  margin-left: 140px;
+}
+.big-room-img {
+  width: 1160px;
+  height: 610px;
+  background: url(KOS_7431.jpg);
+  filter: drop-shadow(0px 89px 45px rgba(0, 0, 0, 0.28));
+
+  margin-left: -40px;
+
+}
+.big-room-subtitle {
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 29px;
+  line-height: 169.19%;
+  /* or 49px */
+  color: rgb(255, 255, 255);
+  margin-top: -97px;
+
+
+}
+.lounge-zone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 120px;
+}
+.zone-title {
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 123.6%;
+  /* or 62px */
+  text-transform: uppercase;
+
+  /* золотой */
+  color: #a18650;
+}
+.zone-subtitle {
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 186.1%;
+  /* or 37px */
+
+  /* text-transform: uppercase; */
+  color: rgb(255, 255, 255);
+}
+.zone-button {
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 133.1%;
+  /* or 23px */
+  text-transform: uppercase;
+  color: #95770e;
+}
+.lounge-zone-img {
+  width: 560px;
+  height: 600px;
+  background: url(/img/loungeZone.png);
+  filter: drop-shadow(0px 81px 33px rgba(0, 0, 0, 0.16));
+  margin-left: 50px;
+}
+.lounge-zone-text {
+  margin-left: 300px;
+}
+.lounge-zone-subtitle {
+  margin-bottom: 26px;
+  margin-top: 4px;
+}
+.wine-room {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 64px;
+}
+.wine-room-img {
+  width: 560px;
+  height: 600px;
+  background: url(/img/wineRoom.png);
+  filter: drop-shadow(0px 12px 49px rgba(0, 0, 0, 0.62));
+
+  margin-left: 92px;
+}
+.wine-room-text {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.wine-room-button {
+  margin-top: 40px;
+}
+
+.cigars-room {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 64px;
+}
+.cigars-room-img {
+  width: 560px;
+  height: 600px;
+  background: url(/img/cigars.png);
+  filter: drop-shadow(0px 12px 49px rgba(0, 0, 0, 0.62));
+  margin-left: -14px;
+}
+.cigars-room-text {
+  margin-left: 210px;
+}
+.cigars-room-button {
+  margin-top: 20px;
+}
+
+.tasting-zone {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  align-items: center;
+}
+.tasting-zone-img {
+  width: 520px;
+  height: 600px;
+  background: url(/img/tasting.png);
+  filter: drop-shadow(0px 12px 49px rgba(0, 0, 0, 0.62));
+  margin-left: 165px;
+}
+.tasting-zone-text {
+  margin-left: 100px;
+}
+.tasting-zone-subtitle {
+  margin-top: 25px;
+  color: #FFFFFF;
+}
+.tasting-zone-button {
+  margin-top: 25px;
+}
+.bar-table {
+  width: 1160px;
+  height: 547px;
+  background: url(/img/table.png);
+  filter: drop-shadow(0px 89px 45px rgba(0, 0, 0, 0.28));
+  margin-left: 120px;
+  margin-top: 120px;
+}
+.footer{
+  margin-top: 120px;
+}
+.adress-text p {
+  border: solid #292929;
+  border-width: 0 0 1px;
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 133.1%;
+padding-left: 56px;
+/* or 21px */
+color: #FFFFFF;
+}
+
+.adress-adress{
+padding-top: 20px;
+padding-bottom: 17px;
+}
+.adress-schedule{
+  padding: 11px 0px;
+
+}
+.adress-number{
+  padding: 23px 0px 18px 0px;
+}
+.adress-inst{
+  padding-left: 0;
+}
+.instagram{
+  display: flex;
+  font-display: row;
+}
+.inst-logo{
+  padding: 18px 0px 23.2px 56px;
+}
+
+.location {
+  display: flex;
+  font-display: row;
+}
+.map{
+  padding: 0px 13px 0px 8px;
+}
+.balloon{
+position: fixed;
+}
+.copyright{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.copyright-nuts{
+  margin: 28px 142px 16px 0px;
+}
+.copyright-date{
+  margin: 34px 0px 26px 143px;
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 133.1%;
+/* or 16px */
+
+text-transform: lowercase;
+
+color: #CBCBCB;
+}
