@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-  background: url(img/header-bg.png) no-repeat fixed;
+  background: url(../img/header-bg.png) no-repeat fixed;
   /* background-size: cover; */
   /* width: 1440px; */
   /* height: 730px; */
@@ -172,7 +172,7 @@ main {
 .big-room-img {
   width: 1160px;
   height: 610px;
-  background: url(KOS_7431.jpg);
+ 
   filter: drop-shadow(0px 89px 45px rgba(0, 0, 0, 0.28));
 
   margin-left: -40px;
@@ -232,7 +232,7 @@ main {
 .lounge-zone-img {
   width: 560px;
   height: 600px;
-  background: url(img/loungeZone.png);
+  background: url(../img/loungeZone.png);
   filter: drop-shadow(0px 81px 33px rgba(0, 0, 0, 0.16));
   margin-left: 50px;
 }
@@ -252,7 +252,7 @@ main {
 .wine-room-img {
   width: 560px;
   height: 600px;
-  background: url(img/wineRoom.png);
+  background: url(../img/wineRoom.png);
   filter: drop-shadow(0px 12px 49px rgba(0, 0, 0, 0.62));
 
   margin-left: 92px;
@@ -274,7 +274,7 @@ main {
 .cigars-room-img {
   width: 560px;
   height: 600px;
-  background: url(img/cigars.png);
+  background: url(../img/cigars.png);
   filter: drop-shadow(0px 12px 49px rgba(0, 0, 0, 0.62));
   margin-left: -14px;
 }
@@ -294,7 +294,7 @@ main {
 .tasting-zone-img {
   width: 520px;
   height: 600px;
-  background: url(img/tasting.png);
+  background: url(../img/tasting.png);
   filter: drop-shadow(0px 12px 49px rgba(0, 0, 0, 0.62));
   margin-left: 165px;
 }
@@ -311,7 +311,7 @@ main {
 .bar-table {
   width: 1160px;
   height: 547px;
-  background: url(img/table.png);
+  background: url(../img/table.png);
   filter: drop-shadow(0px 89px 45px rgba(0, 0, 0, 0.28));
   margin-left: 120px;
   margin-top: 120px;
